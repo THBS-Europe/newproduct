@@ -1,0 +1,9 @@
+---
+environmentSpec: Dev
+type: Product
+authMethod: none
+product:
+  productName: NewProduct
+  apiList: "cc-transformer-api,asset-management"
+schemes: []
+routes: []
