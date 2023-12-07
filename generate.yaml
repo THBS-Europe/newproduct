@@ -2,8 +2,19 @@
 environmentSpec: Dev
 type: Product
 authMethod: none
+filterIp:
+  allowip: 10.20.30.40
+  filterpolicy: api
+azureRateLimit:
+  noOfCalls: 2
+  renewalPeriod: 15
+  ratepolicy: api
+  counter: ip-address
+responseCache:
+  timeDuration: 30
+  cachepolicy: api
 product:
   productName: NewProduct
-  apiList: "cc-transformer-api,asset-management"
+  apiList: "cc-transformer-api,asset-management,cloud-dictionaries"
 schemes: []
 routes: []
